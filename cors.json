@@ -1,1 +1,12 @@
-[{ "origin": ["*"], "method": ["GET"], "maxAgeSeconds": 3600 }]
+[
+  {
+    "origin": [
+      "https://deshmukhautomob.web.app",
+      "https://deshmukhautomob.firebaseapp.com",
+      "http://localhost:3000",
+      "http://localhost:5173"
+    ],
+    "method": ["GET"],
+    "maxAgeSeconds": 3600
+  }
+]
