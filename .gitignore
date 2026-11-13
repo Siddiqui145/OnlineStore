@@ -4,3 +4,4 @@ build/
 node_modules/
 .firebase/
 *.log
+android/app/google-services.json

@@ -1,0 +1,36 @@
+{
+  "hosting": {
+    "public": "build/web",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [{ "source": "**", "destination": "/index.html" }]
+  },
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "storage": { "rules": "storage.rules" },
+  "functions": [{ "source": "functions", "codebase": "default" }],
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "deshmukhautomob",
+          "appId": "1:985201597508:android:56c4f820aff39166ba7011",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "deshmukhautomob",
+          "configurations": {
+            "android": "1:985201597508:android:56c4f820aff39166ba7011",
+            "ios": "1:985201597508:ios:39d448ad30d51f26ba7011",
+            "macos": "1:985201597508:ios:39d448ad30d51f26ba7011",
+            "web": "1:985201597508:web:395c0ae164c2f19bba7011",
+            "windows": "1:985201597508:web:a3167c5d7b9cfac7ba7011"
+          }
+        }
+      }
+    }
+  }
+}
