@@ -12,14 +12,14 @@ import 'theme.dart';
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
-  runApp(const PartsHubApp());
+  runApp(const DeshmukhAutoMobiles());
 }
 
-class PartsHubApp extends StatelessWidget {
-  const PartsHubApp({super.key});
+class DeshmukhAutoMobiles extends StatelessWidget {
+  const DeshmukhAutoMobiles({super.key});
   @override
   Widget build(BuildContext context) => MaterialApp(
-        title: 'PartsHub',
+        title: 'DeshmukhAutoMobiles',
         debugShowCheckedModeBanner: false,
         theme: buildTheme(),
         home: const AuthGate(),

@@ -14,7 +14,7 @@ class CustomerHome extends StatelessWidget {
   Widget build(BuildContext context) => ListenableBuilder(
         listenable: cart,
         builder: (_, __) => Shell(
-          title: 'PartsHub',
+          title: 'DeshmukhAutoMobiles',
           user: user,
           dests: [
             Dest(Icons.storefront_outlined, 'Shop', const ShopPage()),

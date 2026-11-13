@@ -136,7 +136,7 @@ class _AuthScreenState extends State<AuthScreen> {
                       child: const Icon(Icons.settings, size: 32, color: kInk),
                     ),
                     const SizedBox(height: 28),
-                    const Text('PartsHub',
+                    const Text('DeshmukhAutoMobiles',
                         style: TextStyle(color: Colors.white, fontSize: 40, fontWeight: FontWeight.w800)),
                     const SizedBox(height: 12),
                     const Text(

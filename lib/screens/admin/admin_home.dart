@@ -45,7 +45,7 @@ class _AdminHomeState extends State<AdminHome> {
   Widget build(BuildContext context) => ValueListenableBuilder<int>(
         valueListenable: newCount,
         builder: (_, n, __) => Shell(
-          title: 'PartsHub Admin',
+          title: 'DeshmukhAutoMobiles Admin',
           user: widget.user,
           dests: [
             Dest(Icons.dashboard_outlined, 'Dashboard', const DashboardPage()),
